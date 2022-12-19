@@ -1,4 +1,6 @@
+/*------------------------------*/
 /*------------HEADER------------*/
+/*------------------------------*/
 
 .headerContainer{
   height: 100%;
@@ -49,7 +51,9 @@
   color: var(--colorMainNavHover);
 }
 
-/*------------HERO SECTION------------*/
+/*------------------------------*/
+/*---------HERO-SECTION---------*/
+/*------------------------------*/
 
 
 .heroSection{
@@ -110,7 +114,9 @@
   object-fit: cover;
 }
 
-/*------------SECTION------------*/
+/*------------------------------*/
+/*------------SECTION-----------*/
+/*------------------------------*/
 
 .section{
   padding: 4vh 14vw;
@@ -124,7 +130,8 @@
 }
 
 .titleContainerSection{
-  padding-bottom: 1vh;
+  padding-bottom: 5vh;
+  width: 100%;
 }
 
 .titleSection{
@@ -133,7 +140,9 @@
   padding-bottom: 1vh;
 }
 
-/*------------SECTION 1------------*/
+/*------------------------------*/
+/*-----------SECTION-1----------*/
+/*------------------------------*/
 
 .section1{
   background-color: #020024;
@@ -183,7 +192,9 @@
   font-family: sans-serif;
 }
 
-/*------------SECTION 2------------*/
+/*------------------------------*/
+/*-----------SECTION-2----------*/
+/*------------------------------*/
 
 .section2{
   background-color: #eeeeee;
@@ -248,7 +259,9 @@
   text-align: center;
 }
 
-/*------------SECTION 3------------*/
+/*------------------------------*/
+/*-----------SECTION-3----------*/
+/*------------------------------*/
 
 .section3{
   min-height: 60vh;
@@ -295,10 +308,12 @@
   background-color: white;
 }
 
+/*------------------------------*/
+/*-----------SECTION-4----------*/
+/*------------------------------*/
 
 .section4{
   background-color: white;
-  min-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -342,6 +357,7 @@
   height: 6vh;
   width: max-content;
   padding: 0 2vh;
+  border-left: 0;
 
 }
 .formA input[type="email"]{
@@ -349,6 +365,7 @@
   width: 100%;
   padding: 0 1vh;
   font-size: 3vh;
+  background-color: #cbcbcb;
 }
 
 .formA input[type="submit"]:hover{
@@ -370,10 +387,9 @@
   border: 2px black solid;
 }
 
-
-
-
+/*------------------------------*/
 /*------------FOOTER------------*/
+/*------------------------------*/
 
 footer {
   padding: 2vw;
@@ -476,7 +492,9 @@ footer {
 
 }
 
-/*------------ANIMACIONES------------*/
+/*------------------------------*/
+/*----------ANIMATIONS----------*/
+/*------------------------------*/
 @keyframes toWhite {
   0% {
     filter: grayscale(100%) brightness(20%);
@@ -487,11 +505,9 @@ footer {
   }
 }
 
-@keyframes moveLogo {
-  /*TODO*/
-}
-
-/*------------MEDIA QUERY------------*/
+/*------------------------------*/
+/*---------MEDIA-QUERY----------*/
+/*------------------------------*/
 
 @media (max-width: 1440px){
 
@@ -546,8 +562,8 @@ footer {
 
   .discoverbutton{
     background-color: #004293;
-    width: 24vh;
-    height: 6vh;
+    width: 25vh;
+    height: 7vh;
     margin: 4vw;
     font-size: 2em;
   }
@@ -627,8 +643,9 @@ footer {
 
 }
 
-
-/*------------ASSIGNED JS------------*/
+/*------------------------------*/
+/*----------ASIGNED-JS----------*/
+/*------------------------------*/
 
 .displayNav{
   align-items: center;

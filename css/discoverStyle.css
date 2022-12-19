@@ -1,4 +1,6 @@
+/*------------------------------*/
 /*------------HEADER------------*/
+/*------------------------------*/
 
 .headerContainer{
   height: 100%;
@@ -49,7 +51,9 @@
   justify-content: flex-end;
 }
 
-/*------------MAIN------------*/
+/*------------------------------*/
+/*-------------MAIN-------------*/
+/*------------------------------*/
 
 .mainContainer{
   padding: 4vw 14vw;
@@ -182,8 +186,9 @@ input[type=radio]:checked {
   filter: brightness(30%);
 }
 
+/*------------------------------*/
 /*------------FOOTER------------*/
-
+/*------------------------------*/
 footer {
   padding: 2vw;
   background-color: #151515;
@@ -284,7 +289,10 @@ footer {
 
 
 
-/*------------ANIMACIONES------------*/
+/*------------------------------*/
+/*----------ANIMATIONS----------*/
+/*------------------------------*/
+
 @keyframes toWhite {
   0% {
     filter: grayscale(100%) brightness(20%);
@@ -295,7 +303,9 @@ footer {
   }
 }
 
-/*------------MEDIA QUERY------------*/
+/*------------------------------*/
+/*---------MEDIA-QUERY----------*/
+/*------------------------------*/
 
 @media (max-width: 1440px){
 
@@ -315,9 +325,26 @@ footer {
   .filmContainer{
     width: 100%;
   }
+
+  .mainContainer h1{
+    text-align: center;
+  }
+
+  .mainContainer hr{
+    width: 100%;
+  }
+
+  .nameFilter{
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px){
+
+  
+    .headerContainer{
+      padding: 4vh 4vw;
+    }
 
   .menu{
     display: block;
@@ -330,10 +357,6 @@ footer {
   .headerContainer{
     align-items: center;
     
-  }
-
-  .headerContainer{
-    padding: 4vh 4vw;
   }
 
   .mainContainer{
@@ -357,8 +380,9 @@ footer {
 
 }
 
-
-/*------------ASSIGNED JS------------*/
+/*------------------------------*/
+/*----------ASIGNED-JS----------*/
+/*------------------------------*/
 
 .displayNav{
   align-items: center;
