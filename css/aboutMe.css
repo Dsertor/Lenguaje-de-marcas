@@ -1,0 +1,301 @@
+/*------------HEADER------------*/
+
+.headerContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 4vh 14vw;
+}
+
+.logoContainer {
+  display: flex;
+  cursor: pointer;
+  margin-right: 4vw;
+}
+
+.titleWebsite{
+  padding-left: 0.1vw;
+  font-family: Minora;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.mainNav{
+  width: 100%;
+}
+
+.mainNav a{
+  font-family: sans-serif;
+  color: var(--colorMainNav);
+}
+
+.mainNav a:hover{
+  color: var(--colorMainNavHover);
+}
+
+.mainNav ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navSide{
+  padding-left: 2vw;
+}
+
+.menu{
+  color: white;
+  display: none;
+  margin-left: auto; 
+  margin-right: 0;
+}
+
+.mainContainer{
+  margin: 2vw 14vw;
+}
+
+.aboutMeTitle{
+  margin-bottom: 3vh;
+}
+
+.descriptionAboutMe{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-bottom: 5vw;
+
+}
+
+.descriptionAboutMe img{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  object-fit: cover;
+  width: 100%;
+  max-height: fit-content;
+}
+
+.descriptionAboutMe p{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  color: white;
+  margin: 0 2vw 2vw;
+}
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////*/
+/*////////////FOOTER////////////*/
+/*//////////////////////////////*/
+
+footer {
+  padding: 2vw;
+  background-color: #151515;
+}
+
+.socialMediaContainer {
+  padding-bottom: 4vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.socialMediaContainer a {
+  display: contents;
+  cursor: default;
+}
+
+.linkContainer {
+  max-height: 50px;
+  max-width: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+
+  background-color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkImage {
+  filter: brightness(15%);
+  cursor: pointer;
+
+}
+
+.linkImage:hover {
+  animation-name: toWhite;
+  animation-fill-mode: forwards;
+  animation-duration: 0.3s;
+}
+
+.termLinkContainer {
+  padding-bottom: 3vh;
+
+  display: flex;
+  justify-content: center;
+  gap: 0 2vw;
+  flex-wrap: wrap;
+}
+
+.termLinkContainer a {
+  color: rgb(69, 69, 69);
+}
+
+.termLinkContainer a:hover {
+  color: rgb(229, 229, 229);
+}
+
+.copyRight {
+  color: rgb(69, 69, 69);
+}
+
+.copyRight p {
+  text-align: center;
+}
+
+.backToTop{
+  position: fixed;
+  bottom: 3vh;
+  right: 2vw;
+
+  height: 7vh;
+  width: 7vh;
+  background-color: #004293;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+}
+
+.backToTop img{
+  filter: brightness(80%);
+}
+
+.backToTop img:hover{
+  filter: brightness(100%);
+}
+
+.backToTop img{
+  object-fit: scale-down;
+  padding: 10%;
+  display: block;
+  border-radius: 50%;
+}
+
+
+
+
+/*------------ANIMACIONES------------*/
+@keyframes toWhite {
+  0% {
+    filter: grayscale(100%) brightness(20%);
+  }
+
+  100% {
+    filter: grayscale(0) brightness(80%);
+  }
+}
+
+/*------------MEDIA QUERY------------*/
+
+@media (max-width: 1440px){
+
+}
+
+@media (max-width: 1024px){
+  .headerContainer{
+    padding: 4vh 4vw;
+  }
+
+  .mainContainer{
+    margin: 4vh 4vw;
+  }
+}
+
+@media (max-width: 768px){
+  .menu{
+    display: block;
+  }
+
+  .mainNav{
+    display: none;
+  }
+
+  .headerContainer{
+    align-items: center;
+    
+  }
+
+  .termLinkContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .termLinkContainer a{
+    padding: 1vh;
+  }
+}
+
+@media (max-width: 425px){
+  .descriptionAboutMe{
+    display: block;
+  }
+
+  .descriptionAboutMe p{
+    padding: 3vh 0vh;
+  }
+}
+
+
+/*------------ASSIGNED JS------------*/
+
+.displayNav{
+  align-items: center;
+  display: block;
+
+}
+
+.openNav{
+  transform: rotate(-90deg);
+  transition: .2s; 
+}
+
+.closeNav{
+  transform: rotate(0deg);
+  transition: .2s; 
+}
+
+.displayMenu{
+  display: flex;
+  padding: 2.5vh 0;
+  justify-content: flex-end;
+  margin-left: auto; 
+  margin-right: 0;
+
+}
+
+.displayLogo{
+  display: none;
+}
+
+.displayHeaderContainer{
+  flex-direction: column;
+}
+
+.ulMainNav{
+  flex-direction: column;
+  align-items: center;
+}
+
+.displayLiMainNav{
+  padding: 2vh 0 2vh;
+}

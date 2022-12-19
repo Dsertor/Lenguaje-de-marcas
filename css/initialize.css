@@ -1,0 +1,80 @@
+/*These are the styles that are shared by all pages, and to avoid repeating code I separate them.
+*/
+
+/*------------FONTS------------*/
+
+@font-face {
+  font-family: Minora;
+  src: url(../font/Minora-Trial-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: JustSansRegular;
+  src: url(../font/JUST-Sans.Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: JustSans;
+  src: url(../font/JUST-Sans-ExBold.otf) format("opentype");
+}
+
+/*------------GLOBAL PROPERTIES------------*/
+:root {
+  --colorMainNav: rgb(100, 100, 100);
+  --colorMainNavHover: rgb(240, 240, 240);
+
+  --h2font: 2rem;
+  --h3font: 1.7rem;
+  --h4font: 1.3rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #020024;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button{
+  cursor: pointer;
+}
+
+ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: justSans;
+  color: white;
+}
+
+h2 {
+  font-size: var(--h2font);
+}
+
+h3 {
+  font-size: var(--h3font);
+}
+
+h4 {
+  font-size: var(--h4font);
+}

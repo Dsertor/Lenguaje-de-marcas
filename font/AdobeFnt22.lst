@@ -1,0 +1,80 @@
+%!Adobe-FontList 1.22
+%Locale:0xc0a
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:JUSTSans-ExBd
+FamilyName:JUST Sans
+StyleName:ExBold
+FullName:JUST Sans ExBold
+MenuName:JUST Sans ExBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\FilmView\Font\JUST-Sans-ExBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:116992
+FileModTime:1669175948
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,JUST Sans ExBold
+NameArray:0,Win,1,JUST Sans ExBold
+NameArray:0,Win,16,JUST Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:JUSTSans-Rg
+FamilyName:JUST Sans
+StyleName:Regular
+FullName:JUST Sans Regular
+MenuName:JUST Sans
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\FilmView\Font\JUST-Sans.Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:111356
+FileModTime:1669175952
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,JUST Sans Regular
+NameArray:0,Win,1,JUST Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinoraTrial-Regular
+FamilyName:Minora Trial
+StyleName:Regular
+FullName:Minora Trial Regular
+MenuName:Minora Trial
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\FilmView\Font\Minora-Trial-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:9556
+FileModTime:1663765608
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Minora Trial-Regular
+NameArray:0,Mac,4,Minora Trial Regular
+NameArray:0,Win,1,Minora Trial
+%EndFont
+

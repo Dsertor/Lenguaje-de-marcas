@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FilmView</title>
+  <link rel="stylesheet" href="css/initialize.css">
+  <link rel="stylesheet" href="css/discoverStyle.css">
+  <link rel="icon" href="images/favicon.svg">
+  <script src="https://kit.fontawesome.com/7df9403a08.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="headerContainer" id="headerContainer">
+      <a href="index.html" class="logoContainer" id="logoContainer">
+        <img src="images/logo.svg" alt="The logo of the FilmView website" height="30px" width="30px">
+        <h2 class="titleWebsite">FilmView</h2>
+      </a>
+
+      <div href="" class="menu" id="menu">
+        <i class="fa-solid fa-bars fa-lg" id="hamburguer"></i>
+      </div>
+      
+      <nav class="mainNav" id="mainNav">
+        <ul id="ulMainNav">
+          <li class="navSide">
+            <a href="index.html" class="liMainNav">Home</a>
+          </li>
+          <li class="navSide">
+            <a href="discover.html" class="liMainNav">Discover</a>
+          </li>
+          <li class="navSide">
+            <a href="reviews.html" class="liMainNav">Reviews</a>
+          </li>
+          <li class="navSide">
+            <a href="aboutMe.html" class="liMainNav">About me</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="mainContainer">
+    <h1>Discover</h1>
+    <div class="mainDiscoverContainer">
+      <aside class="filterContainer">
+        <h2>Filters</h2>
+        <div class="nameFilter">
+          <h3 for="nameFilter">Type</h3>
+          <ul>
+            <li>
+              <label for="typeFilter">
+                <p>Film</p>
+                <div class="inputContainer">
+                  <input type="radio" id="typeOption" name="typeOption" value="Film" checked>
+                </div>
+              </label>
+            </li>
+            <li>
+              <label for="typeFilter">
+                <p>Serie</p>
+                <div class="inputContainer">
+                  <input type="radio" id="typeOption" name="typeOption" value="Serie">
+                </div>
+              </label>
+            </li>
+            <li>
+              <label for="typeFilter">
+                <p>Documentary</p>
+                <div class="inputContainer">
+                  <input type="radio" id="typeOption" name="typeOption" value="Documentary">
+                </div>
+              </label>
+            </li>
+            <li>
+              <label for="typeFilter">
+                <p>Anime</p>
+                <div class="inputContainer">
+                  <input type="radio" id="typeOption" name="typeOption" value="Anime">
+                </div>
+              </label>
+            </li>
+          </ul>
+          
+        </div>
+        <hr>
+  
+        <div class="nameFilter">
+          <h3 for="nameFilter">Platform</h3>
+          <ul>
+            <li>
+              <label for="typeFilter">
+                <p>HBO</p>
+                <div class="inputContainer">
+                  <input type="radio" id="platformOption" name="platformOption" value="Serie">
+                </div>
+              </label>
+            </li>
+            <li>
+              <label for="typeFilter">
+                <p>Netflix</p>
+                <div class="inputContainer">
+                  <input type="radio" id="platformOption" name="platformOption" value="Serie">
+                </div>
+              </label>
+            </li>
+            <li>
+              <label for="typeFilter">
+                <p>Prime video</p>
+                <div class="inputContainer">
+                  <input type="radio" id="platformOption" name="platformOption" value="Documentary">
+                </div>
+              </label>
+            </li>
+            <li>
+              <label for="typeFilter">
+                <p>Disney</p>
+                <div class="inputContainer">
+                  <input type="radio" id="platformOption" name="platformOption" value="Anime">
+                </div>
+              </label>
+            </li>
+          </ul>
+        </div>
+        <hr>
+        
+      </aside>
+
+      <section class="filmContainer">
+        <article class="film">
+          <div class="filmImage">
+            <div class="filmPosition">
+              <img src="images/covers/elSenorDeLosAnillos.webp" alt="Cover of the movie El señor de los anillos">
+              <div class="filmCard">
+                <a href="https://www.youtube.com/watch?v=r5X-hFf6Bwo" target="_blank">
+                  <img src="images/playVideo.svg" class="" alt="Image of the button to access the trailer of the footage">
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="film">
+          <div class="filmImage">
+            <div class="filmPosition">
+              <img src="images/covers/insidious.webp" alt="Cover of the movie insidious">
+              <div class="filmCard">
+                <a href="https://www.youtube.com/watch?v=zuZnRUcoWos" target="_blank">
+                  <img src="images/playVideo.svg" class="" alt="Image of the button to access the trailer of the footage">
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="film">
+          <div class="filmImage">
+            <div class="filmPosition">
+              <img src="images/covers/laLlegada.webp" alt="Cover of the movie La llegada">
+              <div class="filmCard">
+                <a href="https://www.youtube.com/watch?v=tFMo3UJ4B4g" target="_blank">
+                  <img src="images/playVideo.svg" class="" alt="Image of the button to access the trailer of the footage">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </article>
+        <article class="film">
+          <div class="filmImage">
+            <div class="filmPosition">
+              <img src="images/covers/sinCity.webp" alt="Cover of the movie Sin city">
+              <div class="filmCard">
+                <a href="https://www.youtube.com/watch?v=T2Dj6ktPU5c" target="_blank">
+                  <img src="images/playVideo.svg" class="" alt="Image of the button to access the trailer of the footage">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </article>
+        <article class="film">
+          <div class="filmImage">
+            <div class="filmPosition">
+              <img src="images/covers/elCapitan.webp" alt="Cover of the movie El capitan">
+              <div class="filmCard">
+                <a href="https://www.youtube.com/watch?v=D_zSFeHfglc" target="_blank">
+                  <img src="images/playVideo.svg" class="" alt="Image of the button to access the trailer of the footage">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </article>
+        <article class="film">
+          <div class="filmImage">
+            <div class="filmPosition">
+              <img src="images/covers/perdida.webp" alt="Cover of the movie Perdida">
+              <div class="filmCard">
+                <a href="https://www.youtube.com/watch?v=2-_-1nJf8Vg" target="_blank">
+                  <img src="images/playVideo.svg" class="" alt="Image of the button to access the trailer of the footage">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </article>
+        <article class="film">
+          <div class="filmImage">
+            <div class="filmPosition">
+              <img src="images/covers/laCaza.webp" alt="Cover of the movie La caza">
+              <div class="filmCard">
+                <a href="https://www.youtube.com/watch?v=ieLIOBkMgAQ" target="_blank">
+                  <img src="images/playVideo.svg" class="" alt="Image of the button to access the trailer of the footage">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </article>
+        <article class="film">
+          <div class="filmImage">
+            <div class="filmPosition">
+              <img src="images/covers/hamilton.webp" alt="Cover of the movie Hamilton">
+              <div class="filmCard">
+                <a href="https://www.youtube.com/watch?v=DSCKfXpAGHc" target="_blank">
+                  <img src="images/playVideo.svg" class="" alt="Image of the button to access the trailer of the footage">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </article>
+        <article class="film">
+          <div class="filmImage">
+            <div class="filmPosition">
+              <img src="images/covers/crudo.webp" alt="Cover of the movie Crudo">
+              <div class="filmCard">
+                <a href="https://www.youtube.com/watch?v=gFlXVX2af_Y" target="_blank">
+                  <img src="images/playVideo.svg" class="" alt="Image of the button to access the trailer of the footage">
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+        </article>
+    </section>
+    </div>
+    
+
+   
+  </main>
+
+  <footer>
+    <div class="socialMediaContainer">
+      <a href="https://github.com/Dsertor">
+        <div class="linkContainer">
+          <img class="linkImage" src="images/gitHub.svg" alt="Link to Sergio Rolando's Github profile" height="100%"
+            width="100%" />
+        </div>
+      </a>
+
+      <a href="https://twitter.com/SrDesertor">
+        <div class="linkContainer">
+          <img class="linkImage" src="images/twitter.svg" alt="Link to Sergio Rolando's Twitter profile" height="75%"
+            width="75%"/>
+        </div>
+      </a>
+
+      <a href="https://www.linkedin.com/in/sergio-rolando-martinez-7492381a8/">
+        <div class="linkContainer">
+          <img class="linkImage" src="images/linkedIn.svg" alt="Link to Sergio Rolando's LinkedIn profile" height="65%"
+            width="65%" />
+        </div>
+      </a>
+    </div>
+    <div class="termLinkContainer">
+      <a href="#">Frequently asked questions</a>
+      <a href="#">Privacy policy</a>
+      <a href="#">Terms of use</a>
+      <a href="#">Cookie policy</a>
+    </div>
+    <div class="copyRight">
+      <p>© Copyright 2022, all rights reserved. Designed by Sergio Rolando.</p>
+    </div>
+  </footer>
+
+  <a class="backToTop" id="backToTop">
+    <img src="images/arrow.svg" alt="Image of the button to go back to the top of the page">
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
