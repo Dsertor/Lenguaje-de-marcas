@@ -644,7 +644,10 @@ footer {
 }
 
 @media (max-width: 425px){
-
+  .titleHeroSection{
+    font-size: 4vh;
+    padding-bottom: 6vh;
+  }
 }
 
 /*------------------------------*/
